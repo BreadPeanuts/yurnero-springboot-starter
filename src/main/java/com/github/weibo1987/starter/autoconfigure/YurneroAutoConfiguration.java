@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * razor自动配置类.
+ * Yurnero自动配置类.
  *
  * @author : weibo
  * @version : v1.0

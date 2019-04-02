@@ -45,10 +45,10 @@ public class TraceLoggingFilter extends OncePerRequestFilter {
 
     private YurneroErrorCodeProperties yurneroErrorCodeProperties;
 
-    public TraceLoggingFilter(YurneroErrorCodeProperties razorErrorCodeProperties) {
-        this.yurneroErrorCodeProperties = razorErrorCodeProperties;
-        if (razorErrorCodeProperties.getTraceExcludeUrls() != null) {
-            EXCLUDE_URL.addAll(razorErrorCodeProperties.getTraceExcludeUrls());
+    public TraceLoggingFilter(YurneroErrorCodeProperties yurneroErrorCodeProperties) {
+        this.yurneroErrorCodeProperties = yurneroErrorCodeProperties;
+        if (yurneroErrorCodeProperties.getTraceExcludeUrls() != null) {
+            EXCLUDE_URL.addAll(yurneroErrorCodeProperties.getTraceExcludeUrls());
         }
     }
 

@@ -44,11 +44,11 @@ public class ErrorHandler {
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     public Object validationRequestParameterException() {
-        YurneroJsonResult razorJsonResult = YurneroJsonResult.build(
+        YurneroJsonResult yurneroJsonResult = YurneroJsonResult.build(
             yurneroErrorCodeProperties.getParamValidateErrorCode(),
             yurneroErrorCodeProperties.getParamValidateErrorMsg()
         );
-        return razorJsonResult;
+        return yurneroJsonResult;
     }
 
     /**
@@ -63,11 +63,11 @@ public class ErrorHandler {
     public Object validationError(MethodArgumentNotValidException ex) {
         BindingResult result = ex.getBindingResult();
         final List<FieldError> fieldErrors = result.getFieldErrors();
-        YurneroJsonResult razorJsonResult = YurneroJsonResult.build(
+        YurneroJsonResult yurneroJsonResult = YurneroJsonResult.build(
             yurneroErrorCodeProperties.getParamValidateErrorCode(),
             fieldErrors.get(0).getDefaultMessage()
         );
-        return razorJsonResult;
+        return yurneroJsonResult;
     }
 
     /**
