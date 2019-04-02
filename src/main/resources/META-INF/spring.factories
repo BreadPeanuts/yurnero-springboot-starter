@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.weibo1987.starter.autoconfigure.YurneroAutoConfiguration

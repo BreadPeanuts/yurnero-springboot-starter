@@ -1,0 +1,95 @@
+{
+  "hints":[{
+    "name":"yurnero.error-meta.successCode",
+    "values":[{
+      "value":"0",
+      "description":"成功码"
+    }]
+  },
+    {
+      "name":"yurnero.error-meta.undefinedErrorCode",
+      "values":[{
+        "value":"9999",
+        "description":"兜底错误码"
+      }]
+    },
+    {
+      "name":"yurnero.error-meta.undefinedErrorMsg",
+      "values":[{
+        "value":"访客太多，请稍后重试",
+        "description":"兜底错误提示信息"
+      }]
+    },
+    {
+      "name":"yurnero.error-meta.paramValidateErrorCode",
+      "values":[{
+        "value":"9001",
+        "description":"参数验证错误码"
+      }]
+    },
+    {
+      "name":"yurnero.error-meta.paramValidateErrorMsg",
+      "values":[{
+        "value":"参数校验有误",
+        "description":"参数校验有误"
+      }]
+    },
+    {
+      "name":"yurnero.error-meta.traceExcludeUrls",
+      "values":[{
+        "value":"traceExcludeUrls",
+        "description":"trace日志排除的路径"
+      }]
+    }
+  ],
+  "groups":[
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta",
+      "type": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties"
+    }],
+  "properties":[
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.successCode",
+      "type": "java.lang.String",
+      "description": "成功码",
+      "defaultValue": ""
+    },
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.undefinedErrorCode",
+      "type": "java.lang.String",
+      "description": "兜底错误码",
+      "defaultValue": ""
+    },
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.undefinedErrorMsg",
+      "type": "java.lang.String",
+      "description": "兜底错误信息",
+      "defaultValue": ""
+    },
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.paramValidateErrorCode",
+      "type": "java.lang.String",
+      "description": "参数校验错误码",
+      "defaultValue": ""
+    },
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.paramValidateErrorMsg",
+      "type": "java.lang.String",
+      "description": "参数校验默认错误信息",
+      "defaultValue": ""
+    },
+    {
+      "sourceType": "com.github.weibo1987.starter.autoconfigure.property.YurneroErrorCodeProperties",
+      "name": "yurnero.error-meta.traceExcludeUrls",
+      "type": "java.util.List",
+      "description": "trace日志排除的路径",
+      "defaultValue": ""
+    }
+  ]
+}
