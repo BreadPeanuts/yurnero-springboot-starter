@@ -92,6 +92,7 @@ public class ErrorHandler {
      * 统一的异常处理.
      *
      * @param request http request {@link HttpServletRequest}
+     * @param ex      exception {@link YurneroException}
      * @return {@link YurneroJsonResult}
      */
     @ExceptionHandler(YurneroException.class)

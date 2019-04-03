@@ -7,7 +7,6 @@ import lombok.Data;
  * 接口返回对象框架，具体的数据在data里，用实现ResultData的对象..
  *
  * @author weibo
- * @date: 2018/4/9 14:19
  */
 @Data
 public class YurneroJsonResult {

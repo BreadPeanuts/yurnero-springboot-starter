@@ -30,6 +30,7 @@ public class RepeatReadRequestWrapper extends HttpServletRequestWrapper {
      *
      * @param request The request to wrap
      * @throws IllegalArgumentException if the request is null
+     * @throws IOException if the request is null
      */
     public RepeatReadRequestWrapper(HttpServletRequest request) throws IOException {
         super(request);

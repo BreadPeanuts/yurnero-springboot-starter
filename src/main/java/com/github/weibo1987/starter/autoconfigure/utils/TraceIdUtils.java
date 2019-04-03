@@ -6,7 +6,7 @@ import org.slf4j.MDC;
  * 类说明.
  *
  * @author weibo
- * @date: 2018/4/10 10:53
+ * @since: 2018/4/10 10:53
  */
 public class TraceIdUtils {
 

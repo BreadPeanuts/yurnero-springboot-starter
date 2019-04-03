@@ -33,7 +33,6 @@ import javax.servlet.http.HttpServletResponse;
  * traceLog 过滤打印.
  *
  * @author weibo
- * @date: 2018/4/10 10:55
  */
 @Slf4j
 public class TraceLoggingFilter extends OncePerRequestFilter {

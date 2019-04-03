@@ -6,7 +6,6 @@ import lombok.Data;
  * 类说明.
  *
  * @author weibo
- * @date: 2018/4/9 15:01
  */
 @Data
 public class YurneroException extends RuntimeException {
